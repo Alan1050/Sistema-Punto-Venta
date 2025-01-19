@@ -1,0 +1,34 @@
+header{
+    background-color: #003366;
+    display: grid;
+    grid-template-columns: 1fr .1fr;
+}
+
+header>.el>img{
+    width: 60%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 30%;
+    border-radius: 20px;
+}
+
+header>.el{
+    display: grid;
+    grid-template-columns: .1fr .5fr;
+}
+
+.el>h1{
+    color: #ffff;
+    padding-top: 20px;
+}
+
+ul{
+    list-style: none;
+    padding-top: 5px;
+}
+
+ul>li>a{
+    text-decoration: none;
+    color: red;
+    line-height: 2;
+}

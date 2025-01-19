@@ -1,0 +1,57 @@
+#centeredDiv {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-height: 80vh; /* Max height of the div, adjust as needed */
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+    overflow-y: auto; /* Enable vertical scrolling */
+    box-sizing: border-box; /* Ensures padding is included in the height calculation */
+}
+
+#cancelBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 20%;
+    margin-left: 0%;
+    font-size: 15px;
+}
+
+#cancelBtn:hover {
+    background-color: #d32f2f;
+}
+
+#centeredDiv table {
+    margin-top: 20px; 
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#centeredDiv th {
+    width: 11.111111%;
+    text-align: left;
+    padding: 8px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#centeredDiv td {
+    padding: 8px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#centeredDiv td>button{
+    width: 100%;
+    margin-left: 0px;
+}

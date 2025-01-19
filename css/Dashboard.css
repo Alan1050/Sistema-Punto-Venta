@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #d9d9d9;
+}
+
+section{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 20px;
+}
+
+section>div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+}
+
+section>div:nth-child(2){
+    margin-top: 20px;
+}
+
+section>div>button{
+    background-color: transparent;
+    border-radius: 20px;
+    height: 300px;
+}
+
+section>div>button:hover{
+    background-color: #FFFF;
+    cursor: pointer;
+}
+
+section>div>button>img{
+    width: 50%;
+}
